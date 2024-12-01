@@ -41,6 +41,11 @@
       "types": "./dist/num/index.d.ts",
       "import": "./dist/num/index.js",
       "default": "./dist.commonjs/num/index.js"
+    },
+    "./client/jsonRpc/transformers": {
+      "types": "./dist/client/jsonRpc/transformers.d.ts",
+      "import": "./dist/client/jsonRpc/transformers.js",
+      "default": "./dist.commonjs/client/jsonRpc/transformers.js"
     }
   },
   "scripts": {
