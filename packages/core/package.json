@@ -18,32 +18,26 @@
       "default": "./dist.commonjs/index.js"
     },
     "./barrel": {
-      "types": "./dist/barrel.d.ts",
       "import": "./dist/barrel.js",
       "default": "./dist.commonjs/barrel.js"
     },
     "./advancedBarrel": {
-      "types": "./dist/advancedBarrel.d.ts",
       "import": "./dist/advancedBarrel.js",
       "default": "./dist.commonjs/advancedBarrel.js"
     },
     "./advanced": {
-      "types": "./dist/advanced.d.ts",
       "import": "./dist/advanced.js",
       "default": "./dist.commonjs/advanced.js"
     },
     "./client": {
-      "types": "./dist/client/index.d.ts",
       "import": "./dist/client/index.js",
       "default": "./dist.commonjs/client/index.js"
     },
     "./num": {
-      "types": "./dist/num/index.d.ts",
       "import": "./dist/num/index.js",
       "default": "./dist.commonjs/num/index.js"
     },
     "./client/jsonRpc/transformers": {
-      "types": "./dist/client/jsonRpc/transformers.d.ts",
       "import": "./dist/client/jsonRpc/transformers.js",
       "default": "./dist.commonjs/client/jsonRpc/transformers.js"
     }

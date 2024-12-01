@@ -1,17 +1,7 @@
-import { bytesFrom, BytesLike, bytesTo } from "../bytes/index.js";
-
-/**
- * Represents a hexadecimal string prefixed with "0x".
- * @public
- */
-export type Hex = `0x${string}`;
-/**
- * Represents a value that can be converted to a hexadecimal string.
- * It extends the BytesLike type.
- * @public
- */
-export type HexLike = BytesLike;
-
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.hexFrom = hexFrom;
+const index_js_1 = require("../bytes/index.js");
 /**
  * Converts a HexLike value to a Hex string.
  * @public
@@ -25,6 +15,6 @@ export type HexLike = BytesLike;
  * const hexStringFromBytes = hexFrom(new Uint8Array([104, 101, 108, 108, 111])); // Outputs "0x68656c6c6f"
  * ```
  */
-export function hexFrom(hex: HexLike): Hex {
-  return `0x${bytesTo(bytesFrom(hex), "hex") || "0"}`;
+function hexFrom(hex) {
+    return `0x${(0, index_js_1.bytesTo)((0, index_js_1.bytesFrom)(hex), "hex") || "0"}`;
 }
